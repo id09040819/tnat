@@ -1,0 +1,236 @@
+header {
+  opacity: 0;
+  animation: ani 3s forwards;
+}
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.table {
+  width: 1280px;
+  background-color: #000000c2;
+  border-radius: 20px;
+}
+
+.hmt {
+  width: 640px;
+  background-color: #000000c2;
+  border-radius: 20px;
+}
+
+font {
+  font-family: "Tiny5", serif;
+  }
+
+.vse {
+  width: 15%;
+}
+
+.logo {
+  padding-top: 12%;
+}
+
+.avtorifoto {
+  padding-right: 30px;
+  float: right;
+}
+
+.avtori {
+  color: white;
+  font-size: 28;
+    font-family: "Tiny5", serif;
+}
+
+.avtori1 {
+  color: white;
+  font-size: 18;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.div1 {
+  padding-left: 30px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-right: 30px;
+}
+
+.but1 {
+  padding-top: 16%;
+  opacity: 0;
+}
+
+.prograss-page-table {
+  width: 50%;
+  /* background-color: #000000c2; */
+  border-radius: 20px;
+}
+
+.prograss-page {
+  padding-left: 30px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-right: 30px;
+  font-family: "Tiny5", serif;
+  font-size: 300%;
+  color: rgb(173, 173, 173);
+}
+
+.dontreal {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.f1 {
+  color: white;
+  font-size: 20;
+  padding-left: 50px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.zagolovok {
+  font-size: 35;
+}
+
+.zagolovok1 {
+  font-size: 25;
+}
+
+.floating-button {
+    text-decoration: none;
+    display: inline-block;
+    width: 155px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: "Tiny5", serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #858585;
+    background: #151522;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+  }
+
+  .floating-button:hover {
+    background: #323250;
+    box-shadow: 0 15px 20px #2e2e4b;
+    color: white;
+    transform: translateY(-7px);
+  }
+
+  .body1 {
+    background-color: #151522;
+    background-image: url('bg.gif');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .body2 {
+    background-color: #151522;
+    background-image: url('UNITE1.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+.t1 {
+    background-color: #000000;
+  }
+
+.stat3 {
+  padding-right: 25px;
+}
+
+.g1 {
+  border-radius: 100px;
+}
+
+nav {
+  border-radius: 30px;
+  font-family: "Tiny5", serif;
+  background-color: #000000; /* Темний фон, як на зображенні */
+  color: #fff; /* Білий колір тексту */
+  padding: 10px 0; /* Відступи зверху та знизу */
+  top: 0;
+  z-index: 100; /* Забезпечує відображення над іншим контентом */
+}
+
+nav ul {
+  list-style: none; /* Видаляє маркери списку */
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Вирівнює елементи по центру */
+}
+
+nav li {
+  display: inline; /* Розміщує елементи в один рядок */
+  margin: 0 15px; /* Відступи між елементами */
+}
+
+nav a {
+  color: #ffffff; /* Трохи світліший колір тексту для посилань */
+  text-decoration: none; /* Видаляє підкреслення */
+  padding: 8px 12px; /* Внутрішні відступи для кнопок */
+  border-radius: 5px; /* Заокруглені кути*/
+  transition: color 0.3s ease-in-out; /* Плавный переход между цветами */
+}
+
+nav a:hover {
+  color: #5364ff;
+}
+
+nav li.play-now a {
+  background-color: #ff0000; /* Червоний фон для "Play Now" */
+  color: #ffffff;
+  padding: 10px 20px; /* Більші відступи */
+  border-radius: 8px; /* Більше заокруглення */
+  transition: color 0.3s ease-in-out, background-color 0.3s ease;
+}
+
+nav li.play-now a:hover {
+  transform: scale(2);
+  color: #000000;
+  background-color: #ffffff; /* Трохи темніший червоний при наведенні */
+}
+
+@media (min-width: 1920px) {
+
+nav {
+  font-size: 25px;
+}
+
+.table {
+  width: 1780px;
+}
+
+.hmt {
+  width: 940px;
+}
+
+.avtori {
+  font-size: 38;
+}
+
+.avtori1 {
+  font-size: 28;
+}
+
+  .logo {
+    width: 680px;
+  }
+
+  .floating-button {
+    width: 280px;
+    height: 50px;
+    font-size: 22px;
+    line-height: 50px;
+  }
+}
